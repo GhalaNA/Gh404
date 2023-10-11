@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Signika+Negative:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.1em;
+    width: 50px;
+    height:auto;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.1em;
+    padding-left: 20px;
+}
+.navigation a:hover{
+    color: rgb(52, 88, 65);
+}
+section{
+    padding: 100px 200px;
+}
+.card{
+    padding: 100px 50px;
+    margin: 0%;
+    background-color: rgb(32, 45, 40);
+    box-shadow: 0px 5px 100px rgba(41, 61, 53, 0.727);
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(0, 0, 0, 0.114)), url(images/Background.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h1{
+    color: rgba(255, 255, 255, 0.735);
+    margin-top: 1px;
+    margin-bottom: 20px ;
+    font-weight: bolder;
+    font-size: 7em;
+    letter-spacing: 3px;
+}
+.main h3{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px ;
+    font-weight:lighter;
+    font-size: 1em;
+}
+.main-btn{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 0.2em 0.7em;
+    border-radius: 30px;
+    border-color: white;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+.main-btn:hover{
+    transform: scale(1.1,1.1);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.7em;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.cards{
+    border: 0.9px solid rgba(255, 255, 255, 0.549);
+    border-radius: 10px;
+    padding: 9px;
+    margin: 10px;
+    width: 290px;
+}
+.cards img{
+     width: 100%;
+    height: auto;
+}
+.info h2{
+    color:white;
+    font-weight: 340;
+    font-size: 1.2em;
+} 
+.info p{
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.631);
+    font-weight: 100;
+}
+.history{
+    background-color: rgb(37, 37, 37);
+    padding: 50px 20px 50px 30px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+.historyinfo {
+    color: rgba(255, 255, 255, 0.777);
+    font-weight:lighter;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+img{
+    max-width: 800px;
+    max-height: 900px;
+    padding-top: 10px;
+}
+.Contact{
+    background-color: rgb(32, 45, 40);
+}
+.cards2{
+    border: 1px solid rgba(255, 255, 255, 0.549);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 13px;
+    width: 390px;
+    display: flex;
+    align-items: center;
+}
+.cards2 i{
+    font-size: 1.9em;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+    margin: 5px;
+}
+footer{
+    background-color: rgb(30, 30, 30);
+    color:white;
+    display: flex;
+    padding: 1.7em;
+    justify-content: space-between;
+}
+.footer .icon{
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+}
+.footer a{
+    color:white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:rgb(117, 117, 117);
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.6em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h1{
+        font-size: 6.23em;
+    }
+    .main h3{
+        font-size: 1.4em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .history {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .historyinfo {
+        font-size: 0.7em;
+        padding-left: 15px;
+    }
+    .container img{
+        width: 200px;
+        height: 260px;
+        padding-top: 4px;
+    }
+    .cards2{
+        width: 200px;
+    }
+}
+@media (max-width:641px){
+    header{
+        padding: 12px 30px;
+    }
+    body{
+        font-size: 12px;
+    }
+    .main h1{
+        font-size: 4.73em;
+    }
+    .main h3{
+        font-size: 1em;
+    }
+}
