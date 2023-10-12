@@ -194,6 +194,10 @@ footer{
     section{
         padding: 80px 20px;
     }
+    .main {
+        background-attachment: scroll;
+        background-position: top;
+    }
     .main h1{
         font-size: 6.23em;
     }
