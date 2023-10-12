@@ -103,6 +103,10 @@ section{
     padding: 9px;
     margin: 10px;
     width: 290px;
+    transition: 0.7s ease;
+}
+.cards:hover{
+    transform: scale(1.1,1.1);
 }
 .cards img{
      width: 100%;
@@ -151,6 +155,10 @@ img{
     width: 390px;
     display: flex;
     align-items: center;
+    transition: 0.7s ease;
+}
+.cards2:hover{
+    transform: scale(1.1,1.1);
 }
 .cards2 i{
     font-size: 1.9em;
